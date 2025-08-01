@@ -34,7 +34,7 @@ Sample config
   "mcpServers": {
     "ecommerce-mcp-server": {
       "command": "python3",
-      "args": ["/Users/muniandibaskaran/Desktop/learning/repo/mcp-server-data/ecommerce-mcp-server/mcp_data_ecommerce_server.py"]
+      "args": ["mcp-server-data/ecommerce-mcp-server/mcp_data_ecommerce_server.py"]
     }
   }
 }
