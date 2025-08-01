@@ -1,0 +1,3 @@
+mcp_use
+pandas
+langchain_google_genai
