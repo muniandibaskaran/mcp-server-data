@@ -40,16 +40,16 @@ Sample config
 }
 ```
 ### MCP server visible in settings and we can see 5 tool chain are added
-![img.png](img.png)
+![custom_connector.png](images/custom_connector.png)
 
-### Sample prompts & Results
+## Sample prompts & Results
 
 
 ### get all brand sales & plot based on this data
-![img_1.png](img_1.png)
+![brands_sales_plot.png](images/brands_sales_plot.png)
 
 ### get all sales based on supervisor & plot based on this data
-![img_2.png](img_2.png)
+![supervisor_sales_plot.png](images/supervisor_sales_plot.png)
 
 
 # References
