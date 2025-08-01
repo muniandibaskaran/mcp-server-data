@@ -15,7 +15,7 @@ async def main():
     client = MCPClient.from_dict(config)
 
     llm = ChatGoogleGenerativeAI(
-        api_key='<api-key>',
+        api_key='AIzaSyDlYjECGojlKTxjL9zq-wI80MCeyAWVlWc',
         model="gemini-2.5-flash-preview-05-20",
         max_retries=2,
         timeout=300,
