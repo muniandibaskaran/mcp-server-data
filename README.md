@@ -14,7 +14,7 @@ cd ecommerce-mcp-server
 pip install -r requirements.txt
 python mcp_data_ecommerce_server.py
 ```
-# Steps to createe Gemini Client to interact with e-commerce data
+# Steps to create Gemini Client to interact with e-commerce data
 
 ```
 Replace <api-key> with your gemini Api key
