@@ -2,7 +2,7 @@ from mcp.server.fastmcp import FastMCP
 import pandas as pd
 
 # Initialize FastMCP server
-mcp = FastMCP("mcpDataExploration", version="1.0.0", description="Ecommerce Data Exploration using AI Tooling Service")
+mcp = FastMCP("mcpDataExploration", description="Ecommerce Data Exploration using AI Tooling Service")
 
 # Read a Ecommerce Sales data (CSV file)
 sales_df = pd.read_csv("mcp-server-data/ecommerce-mcp-server/online-ecommerce.csv")

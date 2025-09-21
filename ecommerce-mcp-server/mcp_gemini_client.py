@@ -21,6 +21,7 @@ async def main():
         timeout=300,
         transport="rest"
     )
+
     # Create agent with the client
     agent = MCPAgent(llm=llm, client=client, max_steps=30)
 
