@@ -6,8 +6,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 async def main():
     config = {
         "mcpServers": {
-            "http": {
-                "url": "http://localhost:8000/sse"
+            "ecommerce": {
+                "url": "http://localhost:5200/mcp"
             }
         }
     }
