@@ -1,11 +1,16 @@
 from mcp.server.fastmcp import FastMCP
 import pandas as pd
+import os
 
 # Initialize FastMCP server
 mcp = FastMCP("mcpDataExploration")
 
 # Read a Ecommerce Sales data (CSV file)
-sales_df = pd.read_csv("online-ecommerce.csv")
+
+base_dir = os.path.dirname(__file__)  # folder of this script
+csv_path = os.path.join(base_dir, "online-ecommerce.csv")
+# sales_df = pd.read_csv("/Users/muniandibaskaran/Desktop/learning/repo/mcp-server-data/ecommerce-mcp-server/online-ecommerce.csv")
+sales_df = pd.read_csv(csv_path)
 
 #get product details based on status
 @mcp.tool()
