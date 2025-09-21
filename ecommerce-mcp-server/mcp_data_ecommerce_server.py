@@ -1,6 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 import pandas as pd
 import os
+import uvicorn
 
 # Initialize FastMCP server
 mcp = FastMCP("mcpDataExploration")
@@ -47,4 +48,4 @@ async def get_all_supervisor_sales():
 # ------------------------------
 if __name__ == "__main__":
     print("Started")
-    mcp.run(host="0.0.0.0", port=8000, transport="http")
+    uvicorn.run(mcp.sse_app(),host="0.0.0.0", port=8000)
