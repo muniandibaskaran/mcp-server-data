@@ -46,4 +46,5 @@ async def get_all_supervisor_sales():
 # Start FastMCP
 # ------------------------------
 if __name__ == "__main__":
+    print("Started")
     mcp.run(host="0.0.0.0", port=8000, transport="http")
