@@ -5,7 +5,7 @@ import pandas as pd
 mcp = FastMCP("mcpDataExploration")
 
 # Read a Ecommerce Sales data (CSV file)
-sales_df = pd.read_csv("mcp-server-data/ecommerce-mcp-server/online-ecommerce.csv")
+sales_df = pd.read_csv("online-ecommerce.csv")
 
 #get product details based on status
 @mcp.tool()
