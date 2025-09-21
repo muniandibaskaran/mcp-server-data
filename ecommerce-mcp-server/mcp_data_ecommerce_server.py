@@ -48,4 +48,4 @@ async def get_all_supervisor_sales():
 # ------------------------------
 if __name__ == "__main__":
     print("Started")
-    uvicorn.run(mcp.sse_app(),host="0.0.0.0", port=5000)
+    uvicorn.run(mcp.sse_app(),host="0.0.0.0")
