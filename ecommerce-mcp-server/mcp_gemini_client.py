@@ -7,7 +7,7 @@ async def main():
     config = {
         "mcpServers": {
             "ecommerce": {
-                "url": "http://localhost:5200/mcp"
+                "url": "https://1553e05b.mcp-server-data.pages.dev"
             }
         }
     }
